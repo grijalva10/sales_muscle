@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1a2c85f-aff1-4def-8412-b7dd5d8f0359" name="54.68.77.232" url="http://54.68.77.232">
+        <fileTransfer host="54.68.77.232" port="22" privateKey="C:\Users\jgrijalva\Documents\Keys\bitnami-hosting.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

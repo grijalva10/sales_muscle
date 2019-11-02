@@ -1,0 +1,1572 @@
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "log" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "request" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "db" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbConnection] Opening DB connection
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "cache" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_modules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='accounts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='actions'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='bugReports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='calendar'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='contacts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='docs'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='emailInboxes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='groups'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='marketing'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='media'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='opportunities'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='products'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='property'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='quotes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='reports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='services'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='template'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='topics'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='users'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='workflow'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='x2Leads'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "messages" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (333)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `name`, `custom`
+FROM `x2_modules`
+WHERE moduleType = "module"
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (77)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (506)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (486)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_profile" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (107)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Admin.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_admin" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_admin` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "user" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "session" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Profile.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (350)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`username`=:yp0 LIMIT 1. Bound with :yp0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (350)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] lazy loading Profile.user
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (352)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_users" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (352)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `user`.`id` AS `t1_c0`, `user`.`firstName` AS `t1_c1`, `user`.`lastName` AS `t1_c2`, `user`.`username` AS `t1_c3`, `user`.`userAlias` AS `t1_c4`, `user`.`password` AS `t1_c5`, `user`.`title` AS `t1_c6`, `user`.`department` AS `t1_c7`, `user`.`officePhone` AS `t1_c8`, `user`.`cellPhone` AS `t1_c9`, `user`.`homePhone` AS `t1_c10`, `user`.`address` AS `t1_c11`, `user`.`backgroundInfo` AS `t1_c12`, `user`.`emailAddress` AS `t1_c13`, `user`.`status` AS `t1_c14`, `user`.`temporary` AS `t1_c15`, `user`.`lastUpdated` AS `t1_c16`, `user`.`createDate` AS `t1_c17`, `user`.`updatedBy` AS `t1_c18`, `user`.`recentItems` AS `t1_c19`, `user`.`topContacts` AS `t1_c20`, `user`.`lastLogin` AS `t1_c21`, `user`.`login` AS `t1_c22`, `user`.`showCalendars` AS `t1_c23`, `user`.`inviteKey` AS `t1_c24`, `user`.`userKey` AS `t1_c25`, `user`.`calendarKey` AS `t1_c26` FROM `x2_users` `user`  WHERE (`user`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (352)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "user_groups" from cache
+in /opt/bitnami/apache2/htdocs/protected/modules/groups/models/Groups.php (204)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (933)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (925)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "user_roles_1" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (93)
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (120)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (934)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "authManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (936)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (925)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (352)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "authCache" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (107)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (936)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (925)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT authItem, value, params 
+             FROM x2_auth_cache 
+             WHERE userId=1 AND (expire=0 OR expire>1572708680) 
+             LIMIT 200
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthCache.php (101)
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (107)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (936)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Session.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_sessions" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_sessions` `t` WHERE `t`.`id`='kd4hn56r3pp7mkbbrpc5lopg2e' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "user_roles_timeout1" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (168)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (388)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Session.update()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (407)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.ar.CActiveRecord] Session.updateByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (407)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `x2_sessions` SET `lastUpdated`=:yp0 WHERE `x2_sessions`.`id`='kd4hn56r3pp7mkbbrpc5lopg2e'. Bound with :yp0='1572708680'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (407)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "x2Power" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (429)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "themeManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (176)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (470)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "clientScript" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (508)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "coreMessages" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2HttpRequest.php (59)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "errorHandler" application component
+2019/11/02 08:31:20 [trace] [system.CModule] Loading "urlManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (95)
+2019/11/02 08:31:20 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (95)
+2019/11/02 08:31:20 [trace] [system.web.filters.CFilterChain] Running filter X2AjaxHandlerFilter.filter()
+2019/11/02 08:31:20 [trace] [system.web.filters.CFilterChain] Running filter FileUploadsFilter.filter()
+2019/11/02 08:31:20 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+2019/11/02 08:31:20 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+2019/11/02 08:31:20 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "log" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "request" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "db" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbConnection] Opening DB connection
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "cache" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_modules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='accounts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='actions'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='bugReports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='calendar'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='contacts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='docs'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='emailInboxes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='groups'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='marketing'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='media'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='opportunities'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='products'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='property'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='quotes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='reports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='services'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='template'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='topics'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='users'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='workflow'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='x2Leads'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "messages" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (333)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `name`, `custom`
+FROM `x2_modules`
+WHERE moduleType = "module"
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (77)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (506)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (486)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_profile" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (107)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Admin.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_admin" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_admin` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "user" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "session" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Profile.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (1481)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (354)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`username`=:yp0 LIMIT 1. Bound with :yp0='__x2_guest_profile__'
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (1481)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (354)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Session.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_sessions" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_sessions` `t` WHERE `t`.`id`='tvlc34kj7phnkuiu685jpud9bo' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "user_roles_guest" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (93)
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (120)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (934)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "x2Power" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (429)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "themeManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (176)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (505)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "clientScript" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (508)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "urlManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter X2AjaxHandlerFilter.filter()
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter FileUploadsFilter.filter()
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "log" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "request" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "db" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbConnection] Opening DB connection
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "cache" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_modules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='accounts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='actions'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='bugReports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='calendar'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='contacts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='docs'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='emailInboxes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='groups'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='marketing'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='media'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='opportunities'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='products'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='property'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='quotes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='reports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='services'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='template'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='topics'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='users'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='workflow'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='x2Leads'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "messages" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (333)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `name`, `custom`
+FROM `x2_modules`
+WHERE moduleType = "module"
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (77)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (506)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (486)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_profile" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (107)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Admin.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_admin" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_admin` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "user" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "session" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Profile.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (1481)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (354)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`username`=:yp0 LIMIT 1. Bound with :yp0='__x2_guest_profile__'
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (1481)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (354)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Session.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_sessions" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_sessions` `t` WHERE `t`.`id`='i3qvcoijvf95j8v3pocn5i0j7k' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "user_roles_guest" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (93)
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (120)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (934)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "x2Power" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (429)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "themeManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (176)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (505)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "clientScript" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (508)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "urlManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter X2AjaxHandlerFilter.filter()
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter FileUploadsFilter.filter()
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "fields_x2_media" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_media" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/TimestampBehavior.php (59)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (247)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (251)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/LoginThemeHelper.php (71)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`associationType`=:yp0 AND `t`.`fileName`=:yp1 AND `t`.`private`=:yp2 LIMIT 1. Bound with :yp0='theme', :yp1='Terminal', :yp2=0
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (251)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "ThemeGenerator_theme_Guest" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (138)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (270)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/LoginThemeHelper.php (71)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Saving "ThemeGenerator_theme_Guest" to cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (204)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (270)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/LoginThemeHelper.php (71)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in /opt/bitnami/apache2/htdocs/protected/views/site/login.php (128)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (731)
+in /opt/bitnami/apache2/htdocs/protected/controllers/SiteController.php (1660)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "securityManager" application component
+in /opt/bitnami/apache2/htdocs/protected/views/site/login.php (128)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (731)
+in /opt/bitnami/apache2/htdocs/protected/controllers/SiteController.php (1660)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/modules/media/models/Media.php (71)
+in /opt/bitnami/apache2/htdocs/protected/views/site/login.php (147)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`associationId`=:yp0 AND `t`.`associationType`=:yp1 LIMIT 1. Bound with :yp0=1, :yp1='loginLogo'
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/modules/media/models/Media.php (71)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (251)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (283)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`associationType`=:yp0 AND `t`.`fileName`=:yp1 AND `t`.`private`=:yp2 LIMIT 1. Bound with :yp0='theme', :yp1='Default', :yp2=0
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (251)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "ThemeGenerator_theme_Guest" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (138)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (270)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (283)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Saving "ThemeGenerator_theme_Guest" to cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (204)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (270)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (283)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "assetManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2ClientScript.php (346)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (740)
+in /opt/bitnami/apache2/htdocs/protected/controllers/SiteController.php (1660)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "log" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "request" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "db" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbConnection] Opening DB connection
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "cache" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_modules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='accounts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='actions'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='bugReports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='calendar'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='contacts'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='docs'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='emailInboxes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='groups'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='marketing'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='media'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='opportunities'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='products'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='property'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='quotes'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='reports'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='services'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='template'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='topics'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='users'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='workflow'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`name`=:yp0 LIMIT 1. Bound with :yp0='x2Leads'
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (992)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (327)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "messages" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (333)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `name`, `custom`
+FROM `x2_modules`
+WHERE moduleType = "module"
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (77)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (506)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (486)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_profile" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (107)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (338)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Admin.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_admin" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_admin` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (342)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "user" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "session" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (346)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Profile.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (1481)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (354)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`username`=:yp0 LIMIT 1. Bound with :yp0='__x2_guest_profile__'
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (1481)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (354)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Session.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_sessions" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_sessions` `t` WHERE `t`.`id`='30qm5hgl91p71ampsg2jaccj2q' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (380)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "user_roles_guest" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (93)
+in /opt/bitnami/apache2/htdocs/protected/models/Roles.php (120)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (934)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "x2Power" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (429)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "themeManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (176)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (505)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "clientScript" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (508)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "urlManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "coreMessages" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "errorHandler" application component
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter X2AjaxHandlerFilter.filter()
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter FileUploadsFilter.filter()
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filtersetPortlets()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+2019/11/02 08:48:55 [trace] [system.web.filters.CFilterChain] Running filter SiteController.filteraccessControl()
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (581)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (41)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (734)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "assetManager" application component
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (830)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (104)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "authManager" application component
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (41)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "cache2" application component
+in /opt/bitnami/apache2/htdocs/protected/models/Admin.php (583)
+in /opt/bitnami/apache2/htdocs/protected/models/Admin.php (559)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (76)
+2019/11/02 08:48:55 [trace] [system.caching.X2FileCache] Saving "Admin::getLicenseKeyInfoCacheKey" to cache
+in /opt/bitnami/apache2/htdocs/protected/models/Admin.php (612)
+in /opt/bitnami/apache2/htdocs/protected/models/Admin.php (559)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (76)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findAllByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (445)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (384)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/QuickCreateRelationshipBehavior.php (72)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`visible`=:yp0 AND `t`.`editable`=:yp1. Bound with :yp0=1, :yp1=true
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (445)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (384)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/QuickCreateRelationshipBehavior.php (72)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `title`
+FROM `x2_modules`
+WHERE name = :name. Bound with :name='Actions'
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (323)
+in /opt/bitnami/apache2/htdocs/protected/components/X2ClientScript.php (798)
+in /opt/bitnami/apache2/htdocs/protected/components/X2ClientScript.php (1108)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "securityManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2ClientScript.php (1111)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (125)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (149)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "fields_x2_media" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_media" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/TimestampBehavior.php (59)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/modules/media/models/Media.php (63)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/X2ClientScript.php (682)
+in /opt/bitnami/apache2/htdocs/protected/components/X2ClientScript.php (770)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`associationId`=:yp0 AND `t`.`associationType`=:yp1 LIMIT 1. Bound with :yp0=1, :yp1='logo'
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/X2ClientScript.php (682)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (251)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (612)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`associationType`=:yp0 AND `t`.`fileName`=:yp1 AND `t`.`private`=:yp2 LIMIT 1. Bound with :yp0='theme', :yp1='Default', :yp2=0
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (251)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "ThemeGenerator_theme_Guest" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (138)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (270)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (612)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Saving "ThemeGenerator_theme_Guest" to cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (204)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (270)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (612)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "ThemeGenerator_theme_Guest" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (138)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (613)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (231)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Saving "ThemeGenerator_theme_Guest" to cache
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (204)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (613)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (231)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Modules.findAll()
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (215)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE visible="1"
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (215)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Notification.countByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1036)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_notifications" from cache
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1036)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `x2_notifications` `t` WHERE `t`.`user`=:yp0 AND (createDate < 1572709735). Bound with :yp0='Guest'
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1036)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/column3.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/x2base.php (716)
+2019/11/02 08:48:55 [trace] [system.CModule] Loading "authCache" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (107)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_users" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/modules/users/models/User.php (96)
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (893)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] User.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (893)
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (149)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id` IS NULL LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (893)
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (149)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='UsersIndex'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "UsersIndex"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='UsersIndex'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='UsersMinimumRequirements'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "UsersMinimumRequirements"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='UsersMinimumRequirements'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='UsersAdminAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "UsersAdminAccess"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='UsersAdminAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "administrator"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='admin'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='UsersBasicAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "UsersBasicAccess"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='UsersBasicAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "administrator"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='admin'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='UsersFullAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "UsersFullAccess"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='UsersFullAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "administrator"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='admin'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='UsersReadOnlyAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "UsersReadOnlyAccess"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='UsersReadOnlyAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "administrator"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='admin'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='UsersUpdateAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "UsersUpdateAccess"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='UsersUpdateAccess'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "administrator"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `x2_auth_item_child`
+WHERE child=:name. Bound with :name='administrator'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `x2_auth_item`
+WHERE name=:name. Bound with :name='admin'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (160)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1062)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Executing SQL: REPLACE INTO x2_auth_cache (userId,authItem,expire,value,params) VALUES (,'UsersIndex',1572968935,0,:cacheStr). Bound with :cacheStr='[]'
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthCache.php (157)
+in /opt/bitnami/apache2/htdocs/protected/components/X2AuthManager.php (169)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebUser.php (50)
+2019/11/02 08:48:55 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/modules/media/models/Media.php (84)
+in /opt/bitnami/apache2/htdocs/protected/views/layouts/main.php (1247)
+2019/11/02 08:48:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`associationId`=:yp0 AND `t`.`associationType`=:yp1 LIMIT 1. Bound with :yp0=1, :yp1='logo'
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/modules/media/models/Media.php (84)

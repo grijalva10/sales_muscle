@@ -1,0 +1,1701 @@
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "log" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "request" application component
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "user" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (283)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "session" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (283)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "db" application component
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (284)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.CDbConnection] Opening DB connection
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (284)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `timeZone`, `language`
+FROM `x2_profile`
+WHERE id=1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (287)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "urlManager" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "cache" application component
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (64)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Notification.findAll()
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (158)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_notifications" from cache
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (158)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_notifications` `t` WHERE id>:lastId AND user=:user AND createDate <= :time ORDER BY id DESC LIMIT 10. Bound with :user='grijalva10', :lastId='0', :time=1572708629
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (158)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Admin.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (159)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_admin" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (159)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_admin` `t` WHERE `t`.`id`=1 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ApplicationConfigBehavior.php (652)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (159)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "fields_x2_actions" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_actions" from cache
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (175)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (162)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='428' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (162)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_action_text" from cache
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='428'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_action_meta_data" from cache
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='428'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (149)
+2019/11/02 08:30:29 [trace] [system.CModule] Loading "messages" application component
+in /opt/bitnami/apache2/htdocs/protected/models/Notification.php (182)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (162)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (79)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Notification.countByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `x2_notifications` `t` WHERE `t`.`user`=:yp0 AND (createDate < 1572708629). Bound with :yp0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT MAX(timestamp)
+FROM `x2_events`
+WHERE (associationType='User' AND associationId=:profileId AND visibility=1 OR (visibility=0 AND (user=:userName AND associationId=:profileId))) OR (associationType is null or associationType!='Events') AND (type!='action_reminder' OR user=:username) AND (type!='notif' OR user=:username) AND timestamp <= 1572708629 AND ((TRUE) AND (
+                user=:getAccessCriteria_username OR
+                associationType="User" AND associationId=:getAccessCriteria_userId
+            ))
+GROUP BY `id`
+ORDER BY `timestamp` DESC, `id` DESC LIMIT 1. Bound with :username='grijalva10', :profileId='1', :userName='grijalva10', :getAccessCriteria_username='grijalva10', :getAccessCriteria_userId='1'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (678)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (99)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Events.count()
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (101)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_events" from cache
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (101)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `x2_events` `t` WHERE (associationType='User' AND associationId=:profileId AND visibility=1 OR (visibility=0 AND (user=:userName AND associationId=:profileId))) OR (associationType is null or associationType!='Events') AND (type!='action_reminder' OR user=:username) AND (type!='notif' OR user=:username) AND timestamp <= 1572708629 AND ((TRUE) AND (
+                user=:getAccessCriteria_username OR
+                associationType="User" AND associationId=:getAccessCriteria_userId
+            )) AND id <= :lastEventId AND sticky = 0. Bound with :username='grijalva10', :profileId='1', :userName='grijalva10', :lastEventId='12503', :getAccessCriteria_username='grijalva10', :getAccessCriteria_userId='1'
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (101)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Events.findAll()
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (101)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_events` `t` WHERE (associationType='User' AND associationId=:profileId AND visibility=1 OR (visibility=0 AND (user=:userName AND associationId=:profileId))) OR (associationType is null or associationType!='Events') AND (type!='action_reminder' OR user=:username) AND (type!='notif' OR user=:username) AND timestamp <= 1572708629 AND ((TRUE) AND (
+                user=:getAccessCriteria_username OR
+                associationType="User" AND associationId=:getAccessCriteria_userId
+            )) AND id <= :lastEventId AND sticky = 0 ORDER BY sticky DESC, timestamp DESC, id DESC LIMIT 20. Bound with :username='grijalva10', :profileId='1', :userName='grijalva10', :lastEventId='12503', :getAccessCriteria_username='grijalva10', :getAccessCriteria_userId='1'
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (101)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+in /opt/bitnami/apache2/htdocs/index.php (67)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12444'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "fields_x2_media" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_media" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/TimestampBehavior.php (59)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/modules/media/models/Media.php (63)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_users" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/modules/users/models/User.php (96)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='4661'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `name`, `custom`
+FROM `x2_modules`
+WHERE moduleType = "module"
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (77)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (506)
+in /opt/bitnami/apache2/htdocs/protected/components/ThemeGenerator/ThemeGenerator.php (486)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_profile" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/ERememberFiltersBehavior.php (100)
+in /opt/bitnami/apache2/htdocs/protected/models/Profile.php (107)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=4661 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "fields_x2_property" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_property" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/TimestampBehavior.php (59)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Property.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_property` `t` WHERE `t`.`id`=4661 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (205)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (205)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Property.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (209)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_property` `t` WHERE `t`.`id`=4661 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (209)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (217)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_modules" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (217)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Property', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (217)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `title`
+FROM `x2_modules`
+WHERE name = :name. Bound with :name='Property'
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (323)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (351)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (217)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12445'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='4662'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=4662 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Property.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_property` `t` WHERE `t`.`id`=4662 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (205)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (205)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Property.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (209)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_property` `t` WHERE `t`.`id`=4662 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (209)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (217)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Property', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (217)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (87)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12448'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='450'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=450 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='450' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='450'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='450'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='450' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='450'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='450'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/modules/users/models/User.php (673)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`username`=:yp0 LIMIT 1. Bound with :yp0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/modules/users/models/User.php (673)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "fields_x2_x2leads" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_x2leads" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/TimestampBehavior.php (59)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18125' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12451'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='452'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=452 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='452' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='452'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='452'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='452' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='452'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='452'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18140' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12452'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='453'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=453 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='453' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='453'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='453'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='453' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='453'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='453'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18110' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12453'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='454'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=454 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='454' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='454'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='454'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='454' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='454'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='454'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18129' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12454'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='455'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=455 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='455' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='455'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='455'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='455' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='455'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='455'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18088' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12455'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='456'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=456 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='456' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='456'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='456'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='456' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='456'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='456'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18088' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12456'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='457'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=457 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='457' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='457'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='457'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='457' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='457'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='457'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18087' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12457'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='458'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=458 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='458' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='458'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='458'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='458' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='458'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='458'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "fields_x2_contacts" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_contacts" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/TimestampBehavior.php (59)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Contacts.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_contacts` `t` WHERE `t`.`id`='22' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12459'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='460'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=460 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='460' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='460'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='460'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='460' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='460'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='460'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Contacts.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_contacts` `t` WHERE `t`.`id`='22' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12460'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='461'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=461 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='461' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='461'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='461'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='461' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='461'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='461'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18127' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12461'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='462'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=462 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='462' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='462'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='462'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='462' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='462'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='462'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18127' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12463'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='464'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=464 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='464' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='464'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='464'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Actions.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_actions` `t` WHERE `t`.`id`='464' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (85)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionText
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionText`.`id` AS `t1_c0`, `actionText`.`text` AS `t1_c1`, `actionText`.`actionId` AS `t1_c2` FROM `x2_action_text` `actionText`  WHERE (`actionText`.`actionId`=:ypl0). Bound with :ypl0='464'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (654)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Actions.actionMetaData
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `actionMetaData`.`id` AS `t1_c0`, `actionMetaData`.`actionId` AS `t1_c1`, `actionMetaData`.`eventSubtype` AS `t1_c2`, `actionMetaData`.`eventStatus` AS `t1_c3`, `actionMetaData`.`etag` AS `t1_c4`, `actionMetaData`.`remoteCalendarUrl` AS `t1_c5`, `actionMetaData`.`remoteSource` AS `t1_c6`, `actionMetaData`.`emailImapUid` AS `t1_c7`, `actionMetaData`.`emailInboxId` AS `t1_c8`, `actionMetaData`.`emailUidValidity` AS `t1_c9`, `actionMetaData`.`emailFolderName` AS `t1_c10` FROM `x2_action_meta_data` `actionMetaData`  WHERE (`actionMetaData`.`actionId`=:ypl0). Bound with :ypl0='464'
+in /opt/bitnami/apache2/htdocs/protected/modules/actions/models/Actions.php (657)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (95)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] X2Leads.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (110)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_x2leads` `t` WHERE `t`.`id`='18141' LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (1190)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (125)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12498'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='4'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=4 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "fields_x2_groups" from cache
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (712)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (245)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+2019/11/02 08:30:29 [trace] [system.caching.CFileCache] Serving "yii:dbschemamysql:host=localhost;dbname=x2engine:root:x2_groups" from cache
+in /opt/bitnami/apache2/htdocs/protected/components/behaviors/TimestampBehavior.php (59)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (259)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Groups.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_groups` `t` WHERE `t`.`id`=4 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (228)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (228)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Events.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (230)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_events` `t` WHERE `t`.`type`=:yp0 AND `t`.`associationType`=:yp1 AND `t`.`associationId`=:yp2 LIMIT 1. Bound with :yp0='record_deleted', :yp1='Groups', :yp2='4'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (230)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (234)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Groups', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (234)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `title`
+FROM `x2_modules`
+WHERE name = :name. Bound with :name='Groups'
+in /opt/bitnami/apache2/htdocs/protected/models/Modules.php (323)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (351)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (234)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12499'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='5'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=5 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Groups.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_groups` `t` WHERE `t`.`id`=5 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (228)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (228)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Events.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (230)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_events` `t` WHERE `t`.`type`=:yp0 AND `t`.`associationType`=:yp1 AND `t`.`associationId`=:yp2 LIMIT 1. Bound with :yp0='record_deleted', :yp1='Groups', :yp2='5'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (230)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (234)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Groups', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (234)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12500'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='6'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=6 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Groups.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_groups` `t` WHERE `t`.`id`=6 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (2820)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (83)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (228)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (228)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Events.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (230)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_events` `t` WHERE `t`.`type`=:yp0 AND `t`.`associationType`=:yp1 AND `t`.`associationId`=:yp2 LIMIT 1. Bound with :yp0='record_deleted', :yp1='Groups', :yp2='6'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (230)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (234)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Groups', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (234)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (90)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12501'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='6'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=6 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (275)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (275)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (278)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Groups', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (278)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12502'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='5'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=5 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (275)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (275)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (278)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Groups', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (278)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `mediaId`
+FROM `x2_events_to_media`
+WHERE eventsId=:eventsId. Bound with :eventsId='12503'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (370)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Media.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_media` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0=false
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (3018)
+in /opt/bitnami/apache2/htdocs/protected/models/X2Model.php (680)
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (371)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_users` `t` WHERE `t`.`id`=:yp0 LIMIT 1. Bound with :yp0='4'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (372)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Profile.findByPk()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_profile` `t` WHERE `t`.`id`=4 LIMIT 1
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (373)
+in /opt/bitnami/apache2/htdocs/protected/controllers/NotificationsController.php (117)
+in /opt/bitnami/apache2/htdocs/protected/components/X2WebApplication.php (65)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] lazy loading Events.profile
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (275)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT `profile`.`id` AS `t1_c0`, `profile`.`fullName` AS `t1_c1`, `profile`.`username` AS `t1_c2`, `profile`.`officePhone` AS `t1_c3`, `profile`.`extension` AS `t1_c4`, `profile`.`cellPhone` AS `t1_c5`, `profile`.`emailAddress` AS `t1_c6`, `profile`.`notes` AS `t1_c7`, `profile`.`status` AS `t1_c8`, `profile`.`tagLine` AS `t1_c9`, `profile`.`lastUpdated` AS `t1_c10`, `profile`.`updatedBy` AS `t1_c11`, `profile`.`avatar` AS `t1_c12`, `profile`.`allowPost` AS `t1_c13`, `profile`.`disablePhoneLinks` AS `t1_c14`, `profile`.`disableNotifPopup` AS `t1_c15`, `profile`.`disableAutomaticRecordTagging` AS `t1_c16`, `profile`.`disableTimeInTitle` AS `t1_c17`, `profile`.`language` AS `t1_c18`, `profile`.`timeZone` AS `t1_c19`, `profile`.`resultsPerPage` AS `t1_c20`, `profile`.`widgets` AS `t1_c21`, `profile`.`widgetOrder` AS `t1_c22`, `profile`.`widgetSettings` AS `t1_c23`, `profile`.`defaultEmailTemplates` AS `t1_c24`, `profile`.`activityFeedOrder` AS `t1_c25`, `profile`.`theme` AS `t1_c26`, `profile`.`showActions` AS `t1_c27`, `profile`.`miscLayoutSettings` AS `t1_c28`, `profile`.`notificationSound` AS `t1_c29`, `profile`.`loginSound` AS `t1_c30`, `profile`.`startPage` AS `t1_c31`, `profile`.`showSocialMedia` AS `t1_c32`, `profile`.`showDetailView` AS `t1_c33`, `profile`.`gridviewSettings` AS `t1_c34`, `profile`.`generalGridViewSettings` AS `t1_c35`, `profile`.`formSettings` AS `t1_c36`, `profile`.`emailUseSignature` AS `t1_c37`, `profile`.`emailSignature` AS `t1_c38`, `profile`.`enableFullWidth` AS `t1_c39`, `profile`.`googleId` AS `t1_c40`, `profile`.`userCalendarsVisible` AS `t1_c41`, `profile`.`tagsShowAllUsers` AS `t1_c42`, `profile`.`hideCasesWithStatus` AS `t1_c43`, `profile`.`hiddenTags` AS `t1_c44`, `profile`.`address` AS `t1_c45`, `profile`.`defaultFeedFilters` AS `t1_c46`, `profile`.`layout` AS `t1_c47`, `profile`.`minimizeFeed` AS `t1_c48`, `profile`.`fullscreen` AS `t1_c49`, `profile`.`fullFeedControls` AS `t1_c50`, `profile`.`feedFilters` AS `t1_c51`, `profile`.`hideBugsWithStatus` AS `t1_c52`, `profile`.`actionFilters` AS `t1_c53`, `profile`.`oldActions` AS `t1_c54`, `profile`.`mediaWidgetDrive` AS `t1_c55`, `profile`.`historyShowAll` AS `t1_c56`, `profile`.`historyShowRels` AS `t1_c57`, `profile`.`googleRefreshToken` AS `t1_c58`, `profile`.`outlookRefreshToken` AS `t1_c59`, `profile`.`leadRoutingAvailability` AS `t1_c60`, `profile`.`showTours` AS `t1_c61`, `profile`.`defaultCalendar` AS `t1_c62`, `profile`.`enableTwoFactor` AS `t1_c63`, `profile`.`emailInboxes` AS `t1_c64` FROM `x2_profile` `profile`  WHERE (`profile`.`username`=:ypl0). Bound with :ypl0='grijalva10'
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (738)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (275)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.ar.CActiveRecord] Modules.findByAttributes()
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (278)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
+2019/11/02 08:30:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `x2_modules` `t` WHERE `t`.`custom`=:yp0 AND `t`.`name`=:yp1 AND `t`.`moduleType`=:yp2 LIMIT 1. Bound with :yp0=1, :yp1='Groups', :yp2='module'
+in /opt/bitnami/apache2/htdocs/protected/models/Events.php (335)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (278)
+in /opt/bitnami/apache2/htdocs/protected/components/formatters/EventTextFormatter.php (56)
